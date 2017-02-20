@@ -11,8 +11,22 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'freight-sans-pro', sans-serif;
 }
 
+h1 {
+	font-family: 'freight-sans-pro-medium', sans-serif;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-family: 'freight-sans-bold-regular', sans-serif;
+	margin: 2rem 0;
+}
+
+a {
+	color:#3154a5;
+}
+
 a:hover {
-	color: #fff;
+	color: #aaa;
 
 }
 
@@ -65,21 +79,66 @@ section {
 	font-weight: 300;
 	line-height: 2.4rem;
 	width: 32rem;
-	margin: 5rem auto 2rem;
+	margin: 1rem auto;
 	max-width: 80%;
 }
 
 .contents p.team-photo {
-	width: 700px;
-} 
-
-
-.tech img {
-	width: 30%;
-	margin: 4rem 6% 0;
-	min-width: 280px;
+	max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 1000px;
 }
 
+.tech img {
+	width: 25%;
+	margin: 4rem 3% 0;
+	min-width: 200px;
+}
+
+.join-us h1 {
+	color: #3154A5;
+}
+
+.join-us h3{
+	color: #4A4A4A;
+}
+
+.join-us p{
+	color: #4A4A4A;
+}
+
+.work-environment {
+	background: url("../image/work-environment_BG.png") center;
+	background-size: cover;
+}
+
+.work-environment h1, h3, p{
+	color: #fff;
+}
+
+.love-cats {
+	background: url("../image/love-cats_BG.png") center;
+	background-size: cover;
+}
+
+.love-cats h1 {
+	color: #4A4A4A;
+}
+
+.learn-more {
+	background: url("../image/learn-more_BG.png") center;
+	background-size: cover;
+}
+
+.learn-more h1, h3 {
+	color: #fff;
+}
+
+.learn-more p {
+	color: #C8C8C8;
+}
+/*
 .geeks {
 	background: url("../img/bg-1.jpg") center;
 	background-size: cover;
@@ -90,7 +149,7 @@ section {
 	background-size: cover;
 	color: #fff;
 	padding-bottom: 0;
-}
+}*/
 
 .design h1 {
 	color: #fff;
@@ -152,7 +211,7 @@ section {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	text-align: center;
-	padding: 8px 12px 8px 18px;
+	padding: 8px 14px 8px 18px;
 	display: inline-block;
 }
 
